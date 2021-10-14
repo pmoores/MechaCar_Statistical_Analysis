@@ -15,7 +15,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ## Linear Regression to Predict MPG
 
-
+![Summary Statistics - MechaCar MPG](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg_Summary_stats.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Is the slope of the linear model considered to be zero? Why or why not?
