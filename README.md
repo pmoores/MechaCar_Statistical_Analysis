@@ -1,7 +1,7 @@
 # Module 15 Challenge - MechaCar Statistical Analysis
 
 ## Project Overview
-Perform statistical analysis on the production data for the MechaCar to determine the following:
+Help Jeremy and the data analytics team perform statistical analysis on the production data for the MechaCar to determine the following:
 1. Which variables in the dataset predict the mpg of MechaCar prototypes (multiple linear regression analysis).
 2. The summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
 3. If the manufacturing lots are statistically different from the mean population.
@@ -54,9 +54,9 @@ T-Test Results for Each Manufacturing Lots: Could not complete this step in R
 A recent market survey conducted by AutosRU found that customers wanted a car with both power and good fuel efficiency. In order to investigate this further I propose a study that compares the horsepower (hp) and miles per gallon of AutosRU's MechCar versus GlobalTech's new 9-wheeled BeastMech. 
 
 Null hypothesis: There is no difference between the horsepower or fuel efficiency of the MechCar versus the BeastMech.\
-Alternative hypothesis: There is a difference between the horsepower or the fuel efficiency of the MechCar versus the BeastMech.\
+Alternative hypothesis: There is a difference between the horsepower or the fuel efficiency of the MechCar versus the BeastMech.
 
-The main statistical technique I will employ is the one sample t-test. First, a comparison of the mean hp of the MechCar vs the BeastMech using a t-test would determine the significance level (using p-values). Second, a comparison of the mean mpg of the MechCar vs the BeastMech using a t-test would determine the significance difference (using p-values).\
+The main statistical technique I will employ is the one sample t-test. First, a comparison of the mean hp of the MechCar vs the BeastMech using a t-test would determine the significance level (using p-values). Second, a comparison of the mean mpg of the MechCar vs the BeastMech using a t-test would determine the significance difference (using p-values).
 
 These tests would require performance data from both cars that includes hp and mpg.
 
