@@ -1,16 +1,12 @@
 # Module 15 Challenge - MechaCar Statistical Analysis
 
 ## Project Overview
+Perform statistical analysis on the production data for the MechaCar to determine the following:
+1. Which variables in the dataset predict the mpg of MechaCar prototypes (multiple linear regression analysis).
+2. The summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
+3. If the manufacturing lots are statistically different from the mean population.
 
-(REVISE)
-AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
-
-In this challenge, you’ll help Jeremy and the data analytics team do the following:
-
-Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+This project will also outline a statistical study comparing vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 
 ## Linear Regression to Predict MPG
@@ -18,9 +14,15 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 **FIGURE 1: Summary Statistics - MechaCar MPG**
 ![Summary Statistics - MechaCar MPG](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg_Summary_stats.png)
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+QUESTION 1: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+ANSWER: Vehicle length (2.60e-08) and ground clearance (5.21e-08) provided a non-random amount of variance to the mpg values.
+
+QUESTION 2: Is the slope of the linear model considered to be zero? Why or why not?
+ANSWER: No, the p-value (5.35e-11) is much smaller than a 0.001 significance level therefore there is sufficient evidence to reject the null hypothesis, meaning that the slope of our linear model is not zero.
+
+
+QUESTION 3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+ANSWER: Yes, the model predicts mpg of MechaCar prototypes effectively because the Multiple R-squared value of 0.7149 is closer to 1 than 0 (71% accuracy).
 
 
 ## Summary Statistics on Suspension Coils
@@ -38,11 +40,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 ## T-Tests on Suspension Coils
+**FIGURE 4: T-Test - PSI of Manufacturing Lots**
+![T-Test - PSI of Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/One_Sample_Test.png)
+Figure 4 Summary - 
 
-1. # Perform a one-sample t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI
-
-2. Could not complete this step
-
+NOTE: Could not complete step 2 of this deliverable
 
 
 ## Study Design: MechaCar vs Competition
