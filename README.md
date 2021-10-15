@@ -37,29 +37,29 @@ This project will also outline a statistical study comparing vehicle performance
 **Answer:** Variance for all manufacturing lots: 62.29 - meets design specification\
 Variance for Lot 1: 0.98 - meets design specification\
 Variance for Lot 2: 7.47 - meets design specification\
-Variance for Lot 3: 170.29 - does not meet design specification\
+Variance for Lot 3: 170.29 - does not meet design specification
 
 
 ## T-Tests on Suspension Coils
 **FIGURE 4: T-Test - PSI of All Manufacturing Lots**
 ![T-Test - PSI of All Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots_T_Test.png)
 
-**Summary of Results for All Manufacturing Lots:** The p-value (0.2375) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is similar to the population mean. Bottom line: The PSI for the sample lot is similar to the PSI for the population.
+**Summary of Results for All Manufacturing Lots:** The p-value (0.2375) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is statistically similar to the population mean. Bottom line: The PSI for the sample lot is statistically similar to the PSI for the population.
 
 **FIGURE 5: T-Test - PSI of Lot 1**
 ![T-Test - PSI of Lot 1](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot1_T_Test.png)
 
-**Summary of Results for Lot 1:** The p-value (9.35e-12) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not similar to the population mean. Bottom line: The PSI for Lot 1 is not similar to the PSI for the population.
+**Summary of Results for Lot 1:** The p-value (9.35e-12) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not statistically similar to the population mean. Bottom line: The PSI for Lot 1 is not statistically similar to the PSI for the population.
 
 **FIGURE 6: T-Test - PSI of Lot 2**
 ![T-Test - PSI of Lot 2](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot2_T_Test.png)
 
-**Summary of Results for Lot 2:** The p-value (0.0005082) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not similar to the population mean. Bottom line: The PSI for Lot 2 is not similar to the PSI for the population.
+**Summary of Results for Lot 2:** The p-value (0.0005082) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not statistically similar to the population mean. Bottom line: The PSI for Lot 2 is not statistically similar to the PSI for the population.
 
 **FIGURE 6: T-Test - PSI of Lot 3**
 ![T-Test - PSI of Lot 3](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot3_T_Test.png)
 
-**Summary of Results for Lot 3:** The p-value (0.1549) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is similar to the population mean. Bottom line: The PSI for Lot 3 is similar to the PSI for the population.
+**Summary of Results for Lot 3:** The p-value (0.1549) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is statistically similar to the population mean. Bottom line: The PSI for Lot 3 is statistically similar to the PSI for the population.
 
 
 ## Study Design: MechaCar vs Competition
@@ -68,7 +68,7 @@ A recent market survey conducted by AutosRU found that customers wanted a car wi
 Null hypothesis: There is no difference between the horsepower or fuel efficiency of the MechCar versus the BeastMech.\
 Alternative hypothesis: There is a difference between the horsepower or the fuel efficiency of the MechCar versus the BeastMech.
 
-The main statistical technique I will employ is the one sample t-test. First, a comparison of the mean hp of the MechCar vs the BeastMech using a t-test would determine the significance level (using p-values). Second, a comparison of the mean mpg of the MechCar vs the BeastMech using a t-test would determine the significance difference (using p-values).
+The main statistical technique I will employ is the one-sample t-test. First, a comparison of the mean hp of the MechCar vs the BeastMech using a t-test would determine the significance level (using p-values). Second, a comparison of the mean mpg of the MechCar vs the BeastMech using a t-test would determine the significance difference (using p-values).
 
 These tests would require performance data from both cars that includes hp and mpg.
 
