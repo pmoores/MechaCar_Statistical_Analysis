@@ -73,6 +73,9 @@ These tests would require performance data from both cars that includes hp and m
 
 The results of this study could be used by AutosRU to tailor marketing campaigns (e.g. "Higher horsepower with lower miles per gallon than our Beastly competitors").
 
+## Attachments
+[MechaCarChallenge.R](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.R)
+
 
 
 
