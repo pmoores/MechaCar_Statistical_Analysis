@@ -11,7 +11,7 @@ This project will also outline a statistical study comparing vehicle performance
 
 ## Linear Regression to Predict MPG
 
-**FIGURE 1: Summary Statistics - MechaCar MPG**
+**FIGURE 1: Summary Statistics - MechaCar MPG**\
 ![Summary Statistics - MechaCar MPG](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg_Summary_stats.png)
 
 **Question 1a:** Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?\
@@ -26,11 +26,10 @@ This project will also outline a statistical study comparing vehicle performance
 
 ## Summary Statistics on Suspension Coils
 
-**FIGURE 2: Summary Statistics - Suspension Coils**
+**FIGURE 2: Summary Statistics - Suspension Coils**\
 ![Summary Statistics - Suspension Coils](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary_Suspension_Coil.png)
 
-
-**FIGURE 3: Summary Statistics - Suspension Coils by Lot**
+**FIGURE 3: Summary Statistics - Suspension Coils by Lot**\
 ![Summary Statistics - Suspension Coils by Lot](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary_Suspension_Coil.png)
 
 **Question 2a:** The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?\
@@ -41,22 +40,22 @@ Variance for Lot 3: 170.29 - does not meet design specification
 
 
 ## T-Tests on Suspension Coils
-**FIGURE 4: T-Test - PSI of All Manufacturing Lots**
+**FIGURE 4: T-Test - PSI of All Manufacturing Lots**\
 ![T-Test - PSI of All Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots_T_Test.png)
 
 **Summary of Results for All Manufacturing Lots:** The p-value (0.2375) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is statistically similar to the population mean. Bottom line: The PSI for the sample lot is statistically similar to the PSI for the population.
 
-**FIGURE 5: T-Test - PSI of Lot 1**
+**FIGURE 5: T-Test - PSI of Lot 1**\
 ![T-Test - PSI of Lot 1](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot1_T_Test.png)
 
 **Summary of Results for Lot 1:** The p-value (9.35e-12) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not statistically similar to the population mean. Bottom line: The PSI for Lot 1 is not statistically similar to the PSI for the population.
 
-**FIGURE 6: T-Test - PSI of Lot 2**
+**FIGURE 6: T-Test - PSI of Lot 2**\
 ![T-Test - PSI of Lot 2](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot2_T_Test.png)
 
 **Summary of Results for Lot 2:** The p-value (0.0005082) is below the significance level of 0.05. Therefore, we have sufficient evidence to reject the null hypothesis as the sample mean is not statistically similar to the population mean. Bottom line: The PSI for Lot 2 is not statistically similar to the PSI for the population.
 
-**FIGURE 6: T-Test - PSI of Lot 3**
+**FIGURE 7: T-Test - PSI of Lot 3**\
 ![T-Test - PSI of Lot 3](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot3_T_Test.png)
 
 **Summary of Results for Lot 3:** The p-value (0.1549) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is statistically similar to the population mean. Bottom line: The PSI for Lot 3 is statistically similar to the PSI for the population.
