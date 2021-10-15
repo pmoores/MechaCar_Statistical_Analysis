@@ -18,7 +18,7 @@ QUESTION 1: Which variables/coefficients provided a non-random amount of varianc
 ANSWER: Vehicle length (2.60e-08) and ground clearance (5.21e-08) provided a non-random amount of variance to the mpg values.
 
 QUESTION 2: Is the slope of the linear model considered to be zero? Why or why not?\
-ANSWER: No, the p-value (5.35e-11) is much smaller than a 0.001 significance level therefore there is sufficient evidence to reject the null hypothesis, meaning that the slope of our linear model is not zero.
+ANSWER: No, the p-value (5.35e-11) is much smaller than a 0.05 significance level therefore there is sufficient evidence to reject the null hypothesis, meaning that the slope of our linear model is not zero.
 
 
 QUESTION 3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?\
@@ -44,13 +44,13 @@ Variance for Lot 3: 170.29 - does not meet design specification\
 ## T-Tests on Suspension Coils
 **FIGURE 4: T-Test - PSI of Manufacturing Lots**
 ![T-Test - PSI of Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/One_Sample_Test.png)
-Figure 4 Summary - 
 
-NOTE: Could not complete step 2 of this deliverable
+T-Test Results for All Manufacturing Lots: The p-value (0.2375) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is similar to the population mean.
+
+T-Test Results for Each Manufacturing Lots: Could not complete this step in R
 
 
 ## Study Design: MechaCar vs Competition
-
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
