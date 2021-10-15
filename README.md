@@ -26,9 +26,31 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 ## Summary Statistics on Suspension Coils
 
 **FIGURE 2: Summary Statistics - Suspension Coils**
-![Summary Statistics - Suspension Coils](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg_Summary_stats.png)
+![Summary Statistics - Suspension Coils](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary_Suspension_Coil.png)
+Figure 2 Summary - 
+
+
+**FIGURE 3: Summary Statistics - Suspension Coils by Lot**
+![Summary Statistics - Suspension Coils by Lot](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary_Suspension_Coil.png)
+Figure 3 Summary - 
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+
+## T-Tests on Suspension Coils
+
+1. # Perform a one-sample t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI
+
+2. Could not complete this step
 
 
 
+## Study Design: MechaCar vs Competition
 
 
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
