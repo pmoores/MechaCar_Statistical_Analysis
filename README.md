@@ -14,14 +14,14 @@ This project will also outline a statistical study comparing vehicle performance
 **FIGURE 1: Summary Statistics - MechaCar MPG**
 ![Summary Statistics - MechaCar MPG](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg_Summary_stats.png)
 
-QUESTION 1: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+QUESTION 1: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?\
 ANSWER: Vehicle length (2.60e-08) and ground clearance (5.21e-08) provided a non-random amount of variance to the mpg values.
 
-QUESTION 2: Is the slope of the linear model considered to be zero? Why or why not?
+QUESTION 2: Is the slope of the linear model considered to be zero? Why or why not?\
 ANSWER: No, the p-value (5.35e-11) is much smaller than a 0.001 significance level therefore there is sufficient evidence to reject the null hypothesis, meaning that the slope of our linear model is not zero.
 
 
-QUESTION 3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+QUESTION 3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?\
 ANSWER: Yes, the model predicts mpg of MechaCar prototypes effectively because the Multiple R-squared value of 0.7149 is closer to 1 than 0 (71% accuracy).
 
 
@@ -29,14 +29,16 @@ ANSWER: Yes, the model predicts mpg of MechaCar prototypes effectively because t
 
 **FIGURE 2: Summary Statistics - Suspension Coils**
 ![Summary Statistics - Suspension Coils](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary_Suspension_Coil.png)
-Figure 2 Summary - 
 
 
 **FIGURE 3: Summary Statistics - Suspension Coils by Lot**
 ![Summary Statistics - Suspension Coils by Lot](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary_Suspension_Coil.png)
-Figure 3 Summary - 
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+QUESTION: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?\
+ANSWER: Variance for all manufacturing lots: 62.29 - meets design specification\
+Variance for Lot 1: 0.98 - meets design specification\
+Variance for Lot 2: 7.47 - meets design specification\
+Variance for Lot 3: 170.29 - does not meet design specification\
 
 
 ## T-Tests on Suspension Coils
