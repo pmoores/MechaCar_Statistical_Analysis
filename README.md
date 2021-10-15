@@ -43,7 +43,7 @@ Variance for Lot 3: 170.29 - does not meet design specification\
 
 ## T-Tests on Suspension Coils
 **FIGURE 4: T-Test - PSI of All Manufacturing Lots**
-![T-Test - PSI of All Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/One_Sample_Test.png)
+![T-Test - PSI of All Manufacturing Lots](https://github.com/pmoores/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots_T_Test.png)
 
 **Summary of Results for All Manufacturing Lots:** The p-value (0.2375) is above the significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis as the sample mean is similar to the population mean. Bottom line: The PSI for the sample lot is similar to the PSI for the population.
 
