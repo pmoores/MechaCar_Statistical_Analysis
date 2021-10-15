@@ -5,6 +5,7 @@ library(dplyr)
 # Read in a CSV file as Mecha_Car_table
 MechaCar_mpg_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 
+
 # Generate multiple linear regression model with MechaCar_mpg_table with mpg as depen var
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=MechaCar_mpg_table)
 
@@ -33,5 +34,3 @@ sample_coil_table <- Suspension_Coil_table %>% sample_n(50)
 # Perform a one-sample t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI
 t.test(log10(sample_coil_table$PSI),mu=mean(log10(Suspension_Coil_table$PSI)))
 
-
-# Could not complete Step 2 using subset() for each manufacturing lot

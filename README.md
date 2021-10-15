@@ -51,10 +51,19 @@ T-Test Results for Each Manufacturing Lots: Could not complete this step in R
 
 
 ## Study Design: MechaCar vs Competition
+A recent market survey conducted by AutosRU found that customers wanted a car with both power and good fuel efficiency. In order to investigate this further I propose a study that compares the horsepower (hp) and miles per gallon of AutosRU's MechCar versus GlobalTech's new 9-wheeled BeastMech. 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Null hypothesis: There is no difference between the horsepower or fuel efficiency of the MechCar versus the BeastMech.\
+Alternative hypothesis: There is a difference between the horsepower or the fuel efficiency of the MechCar versus the BeastMech.\
+
+The main statistical technique I will employ is the one sample t-test. First, a comparison of the mean hp of the MechCar vs the BeastMech using a t-test would determine the significance level (using p-values). Second, a comparison of the mean mpg of the MechCar vs the BeastMech using a t-test would determine the significance difference (using p-values).\
+
+These tests would require performance data from both cars that includes hp and mpg.
+
+The results of this study could be used by AutosRU to tailor marketing campaigns (e.g. "Higher horsepower with lower miles per gallon than our Beastly competitors").
+
+
+
+
+
+
